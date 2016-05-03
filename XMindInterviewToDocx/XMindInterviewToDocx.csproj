@@ -36,6 +36,8 @@
     <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,11 +50,9 @@
     <Compile Include="BusinessObjects\Interview.cs" />
     <Compile Include="BusinessObjects\Response.cs" />
     <Compile Include="BusinessObjects\Topic.cs" />
-    <Compile Include="Interview.cs" />
-    <Compile Include="DocGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="InterviewDoc.cs" />
+    <Compile Include="XmindDocLoader\XmindDocLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

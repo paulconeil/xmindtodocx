@@ -22,5 +22,10 @@ namespace XMindInterviewToDocx.BusinessObjects
                 topics = new List<Topic>();
             topics.Add(new Topic(topicValue));
         }
+
+        public override string ToString()
+        {
+            return title;
+        }
     }
 }
